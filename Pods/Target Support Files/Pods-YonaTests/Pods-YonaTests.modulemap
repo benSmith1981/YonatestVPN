@@ -1,0 +1,6 @@
+framework module Pods_YonaTests {
+  umbrella header "Pods-YonaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

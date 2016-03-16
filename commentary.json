@@ -1,0 +1,456 @@
+[{
+	"type": "FULLTIME",
+	"time": "",
+	"heading": "Match Finished",
+	"description": "Match ends, Bournemouth 3, Everton 3."
+}, {
+	"type": "EXTRATIME",
+	"time": "90\u0027+9\u0027",
+	"heading": "Full Time",
+	"description": "Second Half ends, Bournemouth 3, Everton 3."
+}, {
+	"type": "BOOKING",
+	"time": "90\u0027+8\u0027",
+	"heading": "Booking",
+	"description": "Charlie Daniels (Bournemouth) is shown the yellow card for excessive celebration."
+}, {
+	"type": "GOAL",
+	"time": "90\u0027+8\u0027",
+	"heading": "Goal!",
+	"description": "Goal!  Bournemouth 3, Everton 3. Junior Stanislas (Bournemouth) header from the centre of the box to the high centre of the goal. Assisted by Charlie Daniels with a cross."
+}, {
+	"type": "SUBSTITUTION",
+	"time": "90\u0027+7\u0027",
+	"heading": "Substitution",
+	"description": "Substitution, Everton. Darron Gibson replaces Arouna Koné."
+}, {
+	"type": "GOAL",
+	"time": "90\u0027+5\u0027",
+	"heading": "Goal!",
+	"description": "Goal!  Bournemouth 2, Everton 3. Ross Barkley (Everton) right footed shot from the right side of the box to the centre of the goal. Assisted by Seamus Coleman."
+}, {
+	"type": "CORNER",
+	"time": "90\u0027+3\u0027",
+	"heading": "",
+	"description": "Corner,  Bournemouth. Conceded by Ramiro Funes Mori."
+}, {
+	"type": "MISS",
+	"time": "90\u0027+2\u0027",
+	"heading": "",
+	"description": "Attempt missed. Charlie Daniels (Bournemouth) header from the centre of the box is too high. Assisted by Glenn Murray following a corner."
+}, {
+	"type": "MISS",
+	"time": "90\u0027+2\u0027",
+	"heading": "",
+	"description": "Attempt missed. Glenn Murray (Bournemouth) header from the centre of the box misses to the right. Assisted by Matt Ritchie with a cross following a corner."
+}, {
+	"type": "CORNER",
+	"time": "90\u0027+1\u0027",
+	"heading": "",
+	"description": "Corner,  Bournemouth. Conceded by Ramiro Funes Mori."
+}, {
+	"type": "FREEKICK",
+	"time": "88\u0027",
+	"heading": "",
+	"description": "Joshua King (Bournemouth) wins a free kick in the defensive half."
+}, {
+	"type": "FREEKICK",
+	"time": "88\u0027",
+	"heading": "",
+	"description": "Foul by Brendan Galloway (Everton)."
+}, {
+	"type": "ATTEMPTBLOCKED",
+	"time": "88\u0027",
+	"heading": "",
+	"description": "Attempt blocked. Romelu Lukaku (Everton) left footed shot from outside the box is blocked. Assisted by Gareth Barry."
+}, {
+	"type": "GOAL",
+	"time": "87\u0027",
+	"heading": "Goal!",
+	"description": "Goal!  Bournemouth 2, Everton 2. Junior Stanislas (Bournemouth) right footed shot from the centre of the box to the top right corner. Assisted by Joshua King."
+}, {
+	"type": "FREEKICK",
+	"time": "87\u0027",
+	"heading": "",
+	"description": "Glenn Murray (Bournemouth) wins a free kick in the attacking half."
+}, {
+	"type": "FREEKICK",
+	"time": "87\u0027",
+	"heading": "",
+	"description": "Foul by Gareth Barry (Everton)."
+}, {
+	"type": "SUBSTITUTION",
+	"time": "86\u0027",
+	"heading": "Substitution",
+	"description": "Substitution, Everton. Aaron Lennon replaces Gerard Deulofeu."
+}, {
+	"type": "MISS",
+	"time": "85\u0027",
+	"heading": "",
+	"description": "Attempt missed. Charlie Daniels (Bournemouth) left footed shot from the left side of the box misses to the left."
+}, {
+	"type": "BOOKING",
+	"time": "82\u0027",
+	"heading": "Booking",
+	"description": "Dan Gosling (Bournemouth) is shown the yellow card."
+}, {
+	"type": "FREEKICK",
+	"time": "81\u0027",
+	"heading": "",
+	"description": "Foul by Joshua King (Bournemouth)."
+}, {
+	"type": "FREEKICK",
+	"time": "81\u0027",
+	"heading": "",
+	"description": "Arouna Koné (Everton) wins a free kick in the defensive half."
+}, {
+	"type": "GOAL",
+	"time": "80\u0027",
+	"heading": "Goal!",
+	"description": "Goal!  Bournemouth 1, Everton 2. Adam Smith (Bournemouth) right footed shot from outside the box to the top left corner following a corner."
+}, {
+	"type": "CORNER",
+	"time": "79\u0027",
+	"heading": "",
+	"description": "Corner,  Bournemouth. Conceded by Ramiro Funes Mori."
+}, {
+	"type": "TEXTFEED",
+	"time": "76\u0027",
+	"heading": "",
+	"description": "Delay over. They are ready to continue."
+}, {
+	"type": "SUBSTITUTION",
+	"time": "76\u0027",
+	"heading": "Substitution",
+	"description": "Substitution, Bournemouth. Glenn Murray replaces Harry Arter because of an injury."
+}, {
+	"type": "TEXTFEED",
+	"time": "74\u0027",
+	"heading": "",
+	"description": "Delay in match Harry Arter (Bournemouth) because of an injury."
+}, {
+	"type": "CORNER",
+	"time": "73\u0027",
+	"heading": "",
+	"description": "Corner,  Bournemouth. Conceded by Ramiro Funes Mori."
+}, {
+	"type": "ATTEMPTBLOCKED",
+	"time": "70\u0027",
+	"heading": "",
+	"description": "Attempt blocked. Junior Stanislas (Bournemouth) right footed shot from outside the box is blocked. Assisted by Harry Arter."
+}, {
+	"type": "ATTEMPTSAVED",
+	"time": "69\u0027",
+	"heading": "",
+	"description": "Attempt saved. Matt Ritchie (Bournemouth) left footed shot from the centre of the box is saved in the centre of the goal. Assisted by Charlie Daniels with a cross."
+}, {
+	"type": "SUBSTITUTION",
+	"time": "68\u0027",
+	"heading": "Substitution",
+	"description": "Substitution, Everton. Tom Cleverley replaces James McCarthy because of an injury."
+}, {
+	"type": "ATTEMPTBLOCKED",
+	"time": "66\u0027",
+	"heading": "",
+	"description": "Attempt blocked. Arouna Koné (Everton) right footed shot from outside the box is blocked. Assisted by Gerard Deulofeu."
+}, {
+	"type": "ATTEMPTBLOCKED",
+	"time": "66\u0027",
+	"heading": "",
+	"description": "Attempt blocked. Andrew Surman (Bournemouth) left footed shot from the centre of the box is blocked. Assisted by Charlie Daniels."
+}, {
+	"type": "CORNER",
+	"time": "65\u0027",
+	"heading": "",
+	"description": "Corner,  Bournemouth. Conceded by John Stones."
+}, {
+	"type": "TEXTFEED",
+	"time": "63\u0027",
+	"heading": "",
+	"description": "Delay over. They are ready to continue."
+}, {
+	"type": "TEXTFEED",
+	"time": "62\u0027",
+	"heading": "",
+	"description": "Delay in match James McCarthy (Everton) because of an injury."
+}, {
+	"type": "CORNER",
+	"time": "61\u0027",
+	"heading": "",
+	"description": "Corner,  Bournemouth. Conceded by Brendan Galloway."
+}, {
+	"type": "CORNER",
+	"time": "61\u0027",
+	"heading": "",
+	"description": "Corner,  Bournemouth. Conceded by Gareth Barry."
+}, {
+	"type": "ATTEMPTBLOCKED",
+	"time": "60\u0027",
+	"heading": "",
+	"description": "Attempt blocked. Junior Stanislas (Bournemouth) right footed shot from the left side of the box is blocked. Assisted by Harry Arter."
+}, {
+	"type": "FREEKICK",
+	"time": "59\u0027",
+	"heading": "",
+	"description": "Foul by Adam Smith (Bournemouth)."
+}, {
+	"type": "FREEKICK",
+	"time": "59\u0027",
+	"heading": "",
+	"description": "Ross Barkley (Everton) wins a free kick in the defensive half."
+}, {
+	"type": "ATTEMPTSAVED",
+	"time": "58\u0027",
+	"heading": "",
+	"description": "Attempt saved. Charlie Daniels (Bournemouth) left footed shot from the left side of the box is saved in the centre of the goal. Assisted by Harry Arter."
+}, {
+	"type": "FREEKICK",
+	"time": "56\u0027",
+	"heading": "",
+	"description": "Foul by Adam Smith (Bournemouth)."
+}, {
+	"type": "FREEKICK",
+	"time": "56\u0027",
+	"heading": "",
+	"description": "Brendan Galloway (Everton) wins a free kick in the defensive half."
+}, {
+	"type": "ATTEMPTSAVED",
+	"time": "55\u0027",
+	"heading": "",
+	"description": "Attempt saved. Dan Gosling (Bournemouth) header from the centre of the box is saved in the centre of the goal. Assisted by Charlie Daniels with a cross."
+}, {
+	"type": "FREEKICK",
+	"time": "53\u0027",
+	"heading": "",
+	"description": "Foul by Junior Stanislas (Bournemouth)."
+}, {
+	"type": "FREEKICK",
+	"time": "53\u0027",
+	"heading": "",
+	"description": "Seamus Coleman (Everton) wins a free kick in the defensive half."
+}, {
+	"type": "FREEKICK",
+	"time": "52\u0027",
+	"heading": "",
+	"description": "Adam Smith (Bournemouth) wins a free kick in the defensive half."
+}, {
+	"type": "FREEKICK",
+	"time": "52\u0027",
+	"heading": "",
+	"description": "Foul by Arouna Koné (Everton)."
+}, {
+	"type": "ATTEMPTBLOCKED",
+	"time": "51\u0027",
+	"heading": "",
+	"description": "Attempt blocked. Seamus Coleman (Everton) left footed shot from outside the box is blocked. Assisted by Gerard Deulofeu."
+}, {
+	"type": "MISS",
+	"time": "51\u0027",
+	"heading": "",
+	"description": "Attempt missed. Romelu Lukaku (Everton) left footed shot from a difficult angle on the left misses to the right. Assisted by Ross Barkley."
+}, {
+	"type": "ATTEMPTSAVED",
+	"time": "50\u0027",
+	"heading": "",
+	"description": "Attempt saved. Matt Ritchie (Bournemouth) left footed shot from outside the box is saved in the bottom left corner. Assisted by Andrew Surman."
+}, {
+	"type": "ATTEMPTBLOCKED",
+	"time": "49\u0027",
+	"heading": "",
+	"description": "Attempt blocked. Joshua King (Bournemouth) left footed shot from the left side of the box is blocked."
+}, {
+	"type": "SECONDHALFBEGINS",
+	"time": "",
+	"heading": "",
+	"description": "Second Half begins Bournemouth 0, Everton 2."
+}, {
+	"type": "SUBSTITUTION",
+	"time": "45\u0027",
+	"heading": "Substitution",
+	"description": "Substitution, Bournemouth. Adam Smith replaces Steve Cook because of an injury."
+}, {
+	"type": "SUBSTITUTION",
+	"time": "45\u0027",
+	"heading": "Substitution",
+	"description": "Substitution, Bournemouth. Ryan Allsop replaces Adam Federici because of an injury."
+}, {
+	"type": "TEXTFEED",
+	"time": "45\u0027+4\u0027",
+	"heading": "",
+	"description": "First Half ends, Bournemouth 0, Everton 2."
+}, {
+	"type": "MISS",
+	"time": "42\u0027",
+	"heading": "",
+	"description": "Attempt missed. Harry Arter (Bournemouth) left footed shot from outside the box misses to the left following a set piece situation."
+}, {
+	"type": "FREEKICK",
+	"time": "41\u0027",
+	"heading": "",
+	"description": "Joshua King (Bournemouth) wins a free kick in the attacking half."
+}, {
+	"type": "FREEKICK",
+	"time": "41\u0027",
+	"heading": "",
+	"description": "Foul by James McCarthy (Everton)."
+}, {
+	"type": "ATTEMPTBLOCKED",
+	"time": "39\u0027",
+	"heading": "",
+	"description": "Attempt blocked. Steve Cook (Bournemouth) header from the centre of the box is blocked. Assisted by Matt Ritchie with a cross."
+}, {
+	"type": "CORNER",
+	"time": "39\u0027",
+	"heading": "",
+	"description": "Corner,  Bournemouth. Conceded by Gareth Barry."
+}, {
+	"type": "GOAL",
+	"time": "36\u0027",
+	"heading": "Goal!",
+	"description": "Goal!  Bournemouth 0, Everton 2. Romelu Lukaku (Everton) right footed shot from the right side of the six yard box to the top right corner. Assisted by Gerard Deulofeu."
+}, {
+	"type": "CORNER",
+	"time": "32\u0027",
+	"heading": "",
+	"description": "Corner,  Bournemouth. Conceded by James McCarthy."
+}, {
+	"type": "CORNER",
+	"time": "32\u0027",
+	"heading": "",
+	"description": "Corner,  Bournemouth. Conceded by Arouna Koné."
+}, {
+	"type": "FREEKICK",
+	"time": "31\u0027",
+	"heading": "",
+	"description": "Dan Gosling (Bournemouth) wins a free kick in the defensive half."
+}, {
+	"type": "FREEKICK",
+	"time": "31\u0027",
+	"heading": "",
+	"description": "Foul by James McCarthy (Everton)."
+}, {
+	"type": "OFFSIDE",
+	"time": "29\u0027",
+	"heading": "",
+	"description": "Offside, Bournemouth. Junior Stanislas tries a through ball, but Joshua King is caught offside."
+}, {
+	"type": "GOAL",
+	"time": "25\u0027",
+	"heading": "Goal!",
+	"description": "Goal!  Bournemouth 0, Everton 1. Ramiro Funes Mori (Everton) header from the centre of the box to the top left corner. Assisted by Ross Barkley with a cross following a corner."
+}, {
+	"type": "CORNER",
+	"time": "25\u0027",
+	"heading": "",
+	"description": "Corner,  Everton. Conceded by Simon Francis."
+}, {
+	"type": "ATTEMPTSAVED",
+	"time": "24\u0027",
+	"heading": "",
+	"description": "Attempt saved. James McCarthy (Everton) left footed shot from the left side of the box is saved in the centre of the goal. Assisted by Ross Barkley."
+}, {
+	"type": "ATTEMPTBLOCKED",
+	"time": "24\u0027",
+	"heading": "",
+	"description": "Attempt blocked. Ross Barkley (Everton) right footed shot from outside the box is blocked. Assisted by Romelu Lukaku."
+}, {
+	"type": "CORNER",
+	"time": "23\u0027",
+	"heading": "",
+	"description": "Corner,  Everton. Conceded by Simon Francis."
+}, {
+	"type": "ATTEMPTSAVED",
+	"time": "23\u0027",
+	"heading": "",
+	"description": "Attempt saved. Romelu Lukaku (Everton) header from the centre of the box is saved in the top centre of the goal. Assisted by Ross Barkley with a cross."
+}, {
+	"type": "CORNER",
+	"time": "22\u0027",
+	"heading": "",
+	"description": "Corner,  Everton. Conceded by Adam Federici."
+}, {
+	"type": "ATTEMPTSAVED",
+	"time": "22\u0027",
+	"heading": "",
+	"description": "Attempt saved. Arouna Koné (Everton) right footed shot from the left side of the box is saved in the bottom left corner."
+}, {
+	"type": "CORNER",
+	"time": "21\u0027",
+	"heading": "",
+	"description": "Corner,  Everton. Conceded by Charlie Daniels."
+}, {
+	"type": "FREEKICK",
+	"time": "19\u0027",
+	"heading": "",
+	"description": "Foul by Joshua King (Bournemouth)."
+}, {
+	"type": "FREEKICK",
+	"time": "19\u0027",
+	"heading": "",
+	"description": "Gareth Barry (Everton) wins a free kick in the defensive half."
+}, {
+	"type": "TEXTFEED",
+	"time": "18\u0027",
+	"heading": "",
+	"description": "Delay over. They are ready to continue."
+}, {
+	"type": "TEXTFEED",
+	"time": "15\u0027",
+	"heading": "",
+	"description": "Delay in match Adam Federici (Bournemouth) because of an injury."
+}, {
+	"type": "CORNER",
+	"time": "14\u0027",
+	"heading": "",
+	"description": "Corner,  Everton. Conceded by Charlie Daniels."
+}, {
+	"type": "ATTEMPTSAVED",
+	"time": "13\u0027",
+	"heading": "",
+	"description": "Attempt saved. Joshua King (Bournemouth) right footed shot from outside the box is saved in the centre of the goal. Assisted by Dan Gosling."
+}, {
+	"type": "ATTEMPTSAVED",
+	"time": "7\u0027",
+	"heading": "",
+	"description": "Attempt saved. Matt Ritchie (Bournemouth) left footed shot from outside the box is saved in the centre of the goal. Assisted by Junior Stanislas."
+}, {
+	"type": "FREEKICK",
+	"time": "6\u0027",
+	"heading": "",
+	"description": "Foul by Dan Gosling (Bournemouth)."
+}, {
+	"type": "FREEKICK",
+	"time": "6\u0027",
+	"heading": "",
+	"description": "Gareth Barry (Everton) wins a free kick in the defensive half."
+}, {
+	"type": "OFFSIDE",
+	"time": "4\u0027",
+	"heading": "",
+	"description": "Offside, Bournemouth. Simon Francis tries a through ball, but Joshua King is caught offside."
+}, {
+	"type": "MISS",
+	"time": "3\u0027",
+	"heading": "",
+	"description": "Attempt missed. Dan Gosling (Bournemouth) left footed shot from the centre of the box is close, but misses to the right. Assisted by Junior Stanislas."
+}, {
+	"type": "FREEKICK",
+	"time": "2\u0027",
+	"heading": "",
+	"description": "Matt Ritchie (Bournemouth) wins a free kick in the defensive half."
+}, {
+	"type": "FREEKICK",
+	"time": "2\u0027",
+	"heading": "",
+	"description": "Foul by Brendan Galloway (Everton)."
+}, {
+	"type": "KICKOFF",
+	"time": "",
+	"heading": "Kick Off",
+	"description": "First Half begins."
+}, {
+	"type": "TEXTFEED",
+	"time": "",
+	"heading": "",
+	"description": "Lineups are announced and players are warming up."
+}]
