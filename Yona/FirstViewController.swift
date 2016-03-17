@@ -16,7 +16,7 @@ class FirstViewController: UIViewController, UITableViewDelegate {
     var manager:NEVPNManager!
     var matchComment: String = "https://feeds.tribehive.co.uk/DigitalStadiumServer/opta?pageType=matchCommentary&value=803294&v=2"
     var matchStats: String = "https://feeds.tribehive.co.uk/DigitalStadiumServer/opta?pageType=match&value=803294&v=2"
-    var arrCommentary:NSMutableArray? //Array of dictionary
+    var arrCommentary:[Commentary]? //Array of dictionary
 
     @IBOutlet var tblJSON: UITableView!
     @IBOutlet var webView: UIWebView!
@@ -80,20 +80,27 @@ class FirstViewController: UIViewController, UITableViewDelegate {
             response: Result<[Commentary], NSError>) -> Void in
             
             if let result = response.value {
+                self.arrCommentary = result
+                self.tblJSON.reloadData()
             }
         }
 
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier("commentCell")!
-        let comment:Commentary = arrCommentary!.objectAtIndex(indexPath.row) as! Commentary
+        let cell = tableView.dequeueReusableCellWithIdentifier("commentCell", forIndexPath: indexPath)
+        let comment = arrCommentary![indexPath.row]
         cell.textLabel?.text = comment.heading
         cell.detailTextLabel?.text = comment.commentDescription
         return cell
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.arrCommentary!.count
+        if self.arrCommentary?.count >= 0 {
+            return self.arrCommentary!.count
+        }
+        else {
+            return 0
+        }
     }
 }
