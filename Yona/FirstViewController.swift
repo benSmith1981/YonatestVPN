@@ -8,14 +8,17 @@
 
 import UIKit
 import NetworkExtension
+import AlamofireJsonToObjects
 import Alamofire
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController, UITableViewDelegate {
     
     var manager:NEVPNManager!
     var matchComment: String = "https://feeds.tribehive.co.uk/DigitalStadiumServer/opta?pageType=matchCommentary&value=803294&v=2"
     var matchStats: String = "https://feeds.tribehive.co.uk/DigitalStadiumServer/opta?pageType=match&value=803294&v=2"
+    var arrCommentary:NSMutableArray? //Array of dictionary
 
+    @IBOutlet var tblJSON: UITableView!
     @IBOutlet var webView: UIWebView!
 
     override func viewDidLoad() {
@@ -70,17 +73,28 @@ class FirstViewController: UIViewController {
     }
     
     @IBAction func downloadParseJSON(sender: AnyObject) {
-        
-        Alamofire.request(.GET,
-            "https://feeds.tribehive.co.uk/DigitalStadiumServer/opta?",
-            ["pageType", "matchCommentary", "value", "803294&v=2"])
-            .responseObject { (response: WeatherResponse?, error: NSError?) in
-                // That was all... You now have a WeatherResponse object with data
+
+        Alamofire.request(.GET, matchComment,parameters:["pageType": "matchCommentary", "value": "803294&v=2"]).responseArray
+            {(request: NSURLRequest?,
+            HTTPURLResponse: NSHTTPURLResponse?,
+            response: Result<[Commentary], NSError>) -> Void in
+            
+            if let result = response.value {
+                self.arrCommentary = 
+            }
         }
-        
-        
+
     }
-
-
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier("commentCell")!
+        let comment:Commentary = arrCommentary!.objectAtIndex(indexPath.row) as! Commentary
+        cell.textLabel?.text = comment.heading
+        cell.detailTextLabel?.text = comment.commentDescription
+        return cell
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.arrCommentary!.count
+    }
 }
-

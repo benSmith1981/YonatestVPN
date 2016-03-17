@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		903D1D6C1C99BE550010CCEC /* AlamofireJsonToObjects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 903D1D6B1C99BE550010CCEC /* AlamofireJsonToObjects.framework */; };
 		907DFF6B1C8EDE9400D5E48C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DFF6A1C8EDE9400D5E48C /* AppDelegate.swift */; };
 		907DFF6D1C8EDE9400D5E48C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DFF6C1C8EDE9400D5E48C /* FirstViewController.swift */; };
 		907DFF6F1C8EDE9400D5E48C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DFF6E1C8EDE9400D5E48C /* SecondViewController.swift */; };
@@ -21,7 +20,10 @@
 		907DFFA01C986FD400D5E48C /* YonaInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DFF9F1C986FD400D5E48C /* YonaInitializer.swift */; };
 		907DFFA51C9872F200D5E48C /* YonaInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 907DFFA41C9872F200D5E48C /* YonaInitializer.m */; };
 		B67F26445681236E904E108E /* Pods_YonaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651A7322E3BCF6875F9F5CDC /* Pods_YonaUITests.framework */; };
+		BE81BE601C99FEA00075D008 /* Commentary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE81BE5F1C99FEA00075D008 /* Commentary.swift */; };
+		BE81BE621C99FEAD0075D008 /* MatchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE81BE611C99FEAD0075D008 /* MatchResults.swift */; };
 		E913725282FBB7426E009E5C /* Pods_YonaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4383452AD8EAD6B9A2BBD2A1 /* Pods_YonaTests.framework */; };
+		EF5493EBA9DEB0DAD6D13C4E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12F7CDF7555A8B93D05E205A /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12F7CDF7555A8B93D05E205A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35BA92C40ECEEC448F6EE456 /* Pods_Yona.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yona.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4383452AD8EAD6B9A2BBD2A1 /* Pods_YonaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YonaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		651A7322E3BCF6875F9F5CDC /* Pods_YonaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YonaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77125F8D39EC6382C622405A /* Pods-Yona.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yona.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yona/Pods-Yona.release.xcconfig"; sourceTree = "<group>"; };
 		779A9724A9A066B99E348BF7 /* Pods-YonaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YonaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YonaUITests/Pods-YonaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		89686D026187D08BA3E2B211 /* Pods-Yona.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yona.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yona/Pods-Yona.debug.xcconfig"; sourceTree = "<group>"; };
 		903D1D671C99B99E0010CCEC /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
 		903D1D681C99B99E0010CCEC /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		903D1D6B1C99BE550010CCEC /* AlamofireJsonToObjects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireJsonToObjects.framework; path = "Pods/../build/Debug-iphoneos/AlamofireJsonToObjects.framework"; sourceTree = "<group>"; };
@@ -69,6 +75,14 @@
 		907DFFA31C9872F200D5E48C /* YonaUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YonaUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		907DFFA41C9872F200D5E48C /* YonaInitializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YonaInitializer.m; sourceTree = "<group>"; };
 		98FCC62E604C72777EA1D8D8 /* Pods-YonaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YonaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YonaTests/Pods-YonaTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE81BE5D1C99FC030075D008 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		BE81BE5F1C99FEA00075D008 /* Commentary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commentary.swift; sourceTree = "<group>"; };
+		BE81BE611C99FEAD0075D008 /* MatchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchResults.swift; sourceTree = "<group>"; };
+		BE81BE631C9A09510075D008 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		BE81BE641C9A09510075D008 /* AlamofireJsonToObjects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireJsonToObjects.framework; path = "Pods/../build/Debug-iphoneos/AlamofireJsonToObjects.framework"; sourceTree = "<group>"; };
+		BE81BE651C9A09510075D008 /* EVReflection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EVReflection.framework; path = "Pods/../build/Debug-iphoneos/EVReflection.framework"; sourceTree = "<group>"; };
+		BE81BE691C9AAD5C0075D008 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		BE81BE6A1C9AAD5C0075D008 /* EVReflection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EVReflection.framework; path = "Pods/../build/Debug-iphoneos/EVReflection.framework"; sourceTree = "<group>"; };
 		CC530E0C6E9515F61EC6FB40 /* Pods-YonaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YonaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YonaTests/Pods-YonaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E4974E350B019F187E3AD131 /* Pods-YonaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YonaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YonaUITests/Pods-YonaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,8 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				903D1D6C1C99BE550010CCEC /* AlamofireJsonToObjects.framework in Frameworks */,
 				907DFF9B1C90676E00D5E48C /* NetworkExtension.framework in Frameworks */,
+				EF5493EBA9DEB0DAD6D13C4E /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +123,8 @@
 				779A9724A9A066B99E348BF7 /* Pods-YonaUITests.release.xcconfig */,
 				CC530E0C6E9515F61EC6FB40 /* Pods-YonaTests.debug.xcconfig */,
 				98FCC62E604C72777EA1D8D8 /* Pods-YonaTests.release.xcconfig */,
+				89686D026187D08BA3E2B211 /* Pods-Yona.debug.xcconfig */,
+				77125F8D39EC6382C622405A /* Pods-Yona.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -147,6 +163,8 @@
 				907DFF731C8EDE9400D5E48C /* Assets.xcassets */,
 				907DFF751C8EDE9400D5E48C /* LaunchScreen.storyboard */,
 				907DFF781C8EDE9400D5E48C /* Info.plist */,
+				BE81BE5F1C99FEA00075D008 /* Commentary.swift */,
+				BE81BE611C99FEAD0075D008 /* MatchResults.swift */,
 			);
 			path = Yona;
 			sourceTree = "<group>";
@@ -176,11 +194,19 @@
 		FD4D5E78D9A71501B036033F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE81BE691C9AAD5C0075D008 /* Alamofire.framework */,
+				BE81BE6A1C9AAD5C0075D008 /* EVReflection.framework */,
+				BE81BE631C9A09510075D008 /* Alamofire.framework */,
+				BE81BE641C9A09510075D008 /* AlamofireJsonToObjects.framework */,
+				BE81BE651C9A09510075D008 /* EVReflection.framework */,
+				BE81BE5D1C99FC030075D008 /* Alamofire.framework */,
 				903D1D6B1C99BE550010CCEC /* AlamofireJsonToObjects.framework */,
 				903D1D671C99B99E0010CCEC /* Alamofire.framework */,
 				903D1D681C99B99E0010CCEC /* SwiftyJSON.framework */,
 				4383452AD8EAD6B9A2BBD2A1 /* Pods_YonaTests.framework */,
 				651A7322E3BCF6875F9F5CDC /* Pods_YonaUITests.framework */,
+				35BA92C40ECEEC448F6EE456 /* Pods_Yona.framework */,
+				12F7CDF7555A8B93D05E205A /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 907DFF911C8EDE9400D5E48C /* Build configuration list for PBXNativeTarget "Yona" */;
 			buildPhases = (
+				1A742ACBAF7E9EA1D7DEB9FC /* Check Pods Manifest.lock */,
 				907DFF631C8EDE9400D5E48C /* Sources */,
 				907DFF641C8EDE9400D5E48C /* Frameworks */,
 				907DFF651C8EDE9400D5E48C /* Resources */,
+				EA6F898F6F765B2B173EA831 /* Embed Pods Frameworks */,
+				CD897B49CDDF7B7CA7279FDF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,6 +368,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		1A742ACBAF7E9EA1D7DEB9FC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		853A836B63A15440D070F5DE /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,6 +443,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YonaUITests/Pods-YonaUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CD897B49CDDF7B7CA7279FDF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA6F898F6F765B2B173EA831 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -408,6 +482,8 @@
 			files = (
 				907DFF6F1C8EDE9400D5E48C /* SecondViewController.swift in Sources */,
 				907DFF6B1C8EDE9400D5E48C /* AppDelegate.swift in Sources */,
+				BE81BE601C99FEA00075D008 /* Commentary.swift in Sources */,
+				BE81BE621C99FEAD0075D008 /* MatchResults.swift in Sources */,
 				907DFF6D1C8EDE9400D5E48C /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -550,6 +626,7 @@
 		};
 		907DFF921C8EDE9400D5E48C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89686D026187D08BA3E2B211 /* Pods-Yona.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Yona/Yona.entitlements;
@@ -569,6 +646,7 @@
 		};
 		907DFF931C8EDE9400D5E48C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77125F8D39EC6382C622405A /* Pods-Yona.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Yona/Yona.entitlements;

@@ -5,14 +5,14 @@
  -->
 [![Build Status](https://travis-ci.org/evermeer/EVReflection.svg?style=flat)](https://travis-ci.org/evermeer/EVReflection)
 [![Issues](https://img.shields.io/github/issues-raw/evermeer/EVReflection.svg?style=flat)](https://github.com/evermeer/EVReflection/issues)
-[![Coverage](https://img.shields.io/badge/coverage-99%-brightgreen.svg?style=flat)](https://raw.githubusercontent.com/evermeer/EVReflection/master/EVReflection/coverage.png)
+[![Coverage](https://img.shields.io/badge/coverage-98%-brightgreen.svg?style=flat)](https://raw.githubusercontent.com/evermeer/EVReflection/master/EVReflection/coverage.png)
 [![Documentation](https://img.shields.io/badge/documented-100%-brightgreen.svg?style=flat)](http://cocoadocs.org/docsets/EVReflection)
 [![Stars](https://img.shields.io/github/stars/evermeer/EVReflection.svg?style=flat)](https://github.com/evermeer/EVReflection/stargazers)
 
 [![Version](https://img.shields.io/cocoapods/v/EVReflection.svg?style=flat)](http://cocoadocs.org/docsets/EVReflection)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Language](https://img.shields.io/badge/language-swift2-f48041.svg?style=flat)](https://developer.apple.com/swift)
 [![Platform](https://img.shields.io/cocoapods/p/EVReflection.svg?style=flat)](http://cocoadocs.org/docsets/EVReflection)
+[![Support](https://img.shields.io/badge/support-iOS%208%2B%20|%20OSX%2010.9+%20|%20WOS%202+-blue.svg?style=flat)](https://www.apple.com/nl/ios/)
 [![License](https://img.shields.io/cocoapods/l/EVReflection.svg?style=flat)](http://cocoadocs.org/docsets/EVReflection)
 
 [![Git](https://img.shields.io/badge/GitHub-evermeer-blue.svg?style=flat)](https://github.com/evermeer)
@@ -31,11 +31,10 @@ EVReflection is used extensively in [EVCloudKitDao](https://github.com/evermeer/
 - Parsing objects to and from a JSON string.
 - Support NSCoding methods encodeWithCoder and decodeObjectWithCoder
 - Supporting Printable, Hashable and Equatable while using all properties. (Support for Set in Swift 1.2)
-- Mapping objects from one type to an other
 
 ## It's easy to use:
 
-Defining an object. You only have to set EVObject as it's base class:
+Defining an object. You only have to set NSObject as it's base class (or EVObject for if you want all functionality):
 ```
 class User: EVObject {
     var id: Int = 0
@@ -46,7 +45,7 @@ class User: EVObject {
 
 Parsing JSON to an object:
 ```
-let json:String = "{\"id\": 24, \"name\": \"Bob Jefferson\", \"friends\": [{\"id\": 29, \"name\": \"Jen Jackson\"}]}"
+let json:String = "{\"id\": 24, \"name\": \"Bob Jefferson\" \"friends\": {[{\"id\": 29, \"name\": \"Jen Jackson\"}]}}"
 let user = User(json: json)
 ```
 
@@ -70,21 +69,6 @@ let result = TestObject2(fileNameInTemp: "temp.dat")
 XCTAssert(theObject == result, "Pass")
 ```
 
-Mapping object to another type:
-```
-let administrator: Administrator = user.mapObjectTo()
-```
-
-
-## If you have XML instead of JSON
-
-If you want to do the same but you have XML, then you can achieve that using the XMLDictionary library.[XMLDictionary](https://github.com/nicklockwood/XMLDictionary) Is a simple way to parse and generate XML. Converts an XML file to an NSDictionary. With that library your code will look like this:
-
-
-```
-let xml = "<user><id>27</id><name>Bob</name><friends><user><id>20</id><name>Jen</name></user></friends></user>"
-let user = User(dictionary: NSDictionary(XMLString: xml))
-```
 
 ## Using EVReflection in your own App 
 
@@ -193,39 +177,15 @@ public class TestObject6: EVObject {
 }
 ```
 
-### What to do when you use object enheritance
-You can deserialize json to an object that uses enheritance. When the properties are specified as the base class, then the correct specific object type will be returned by the function getSecificType. See the sample code below or the unit test in EVReflectionEnheritanceTests.swift
 
-```
-class Quz: EVObject {
-    var fooArray: Array<Foo> = []
-    var fooBar: Foo?
-    var fooBaz: Foo?
-}
 
-class Foo: EVObject {
-    var allFoo: String = "all Foo"
+### When to use EVObject instead of NSObject as a base class.
+There is some functionality that could not be added as an extension to NSObject because of limitations or unwanted side effects. For this the EVObject class can be used. Use EVObject in the folowing situations:
 
-    // What you need to do to get the correct type for when you deserialize enherited classes
-    override func getSpecificType(dict: NSDictionary) -> EVObject {
-        if dict["justBar"] != nil {
-            return Bar()
-        } else if dict["justBaz"] != nil {
-            return Baz()
-        }
-        return self
-    }
-}
-
-class Bar : Foo {
-    var justBar: String = "For bar only"
-}
-
-class Baz: Foo {
-    var justBaz: String = "For baz only"
-}
-```
-
+- When using NSCoding
+- When comparing objects with .isEqual == or !=
+- When using hash or hashValue
+- When you expect there will be keys in your dictionary or json while there will be no property where the value can be mapped to. Instead of using EVObject you can also implement the setValue forUndefinedKey yourself.
 
 ### Known issues
 EVReflection is trying to handle all types. With some types there are limitations in Swift. So far there is a workaround for any of these limitations. Here is an overview:
@@ -250,9 +210,6 @@ For generic properties the protocol EVGenericsKVC is required. see WorkaroundSwi
 
 ####Arrays with nullable objects
 For arrays with nullable objects like [MyObj?] the protocol EVArrayConvertable is required. see WorkaroundsTests.swift
-
-####Swift Dictionaries
-For Swift Dictionaries (and not NSDictionary) the protocol EVDictionaryConvertable is required. See WorkaroundsTests.swift
 
 ## License
 
