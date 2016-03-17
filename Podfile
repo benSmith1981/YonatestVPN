@@ -7,7 +7,6 @@ use_frameworks!
 
 target 'Yona' do
 pod "AlamofireJsonToObjects", '~> 1.0'
-pod 'Cucumberish', '~> 0.0.6'
 end
 
 target 'YonaTests' do

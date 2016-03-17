@@ -80,7 +80,6 @@ class FirstViewController: UIViewController, UITableViewDelegate {
             response: Result<[Commentary], NSError>) -> Void in
             
             if let result = response.value {
-                self.arrCommentary = 
             }
         }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DF79B0644075A324AE399FC /* Pods_Yona.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BA92C40ECEEC448F6EE456 /* Pods_Yona.framework */; };
 		907DFF6B1C8EDE9400D5E48C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DFF6A1C8EDE9400D5E48C /* AppDelegate.swift */; };
 		907DFF6D1C8EDE9400D5E48C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DFF6C1C8EDE9400D5E48C /* FirstViewController.swift */; };
 		907DFF6F1C8EDE9400D5E48C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DFF6E1C8EDE9400D5E48C /* SecondViewController.swift */; };
@@ -94,6 +95,7 @@
 			files = (
 				907DFF9B1C90676E00D5E48C /* NetworkExtension.framework in Frameworks */,
 				EF5493EBA9DEB0DAD6D13C4E /* Pods.framework in Frameworks */,
+				5DF79B0644075A324AE399FC /* Pods_Yona.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +457,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yona/Pods-Yona-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EA6F898F6F765B2B173EA831 /* Embed Pods Frameworks */ = {
@@ -470,7 +472,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yona/Pods-Yona-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

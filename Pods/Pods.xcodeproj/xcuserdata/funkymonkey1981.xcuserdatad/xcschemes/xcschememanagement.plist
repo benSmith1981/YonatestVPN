@@ -24,29 +24,9 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-YonaTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-YonaUITests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>091DD4E64D9CC8ED8ADB897846EC109E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>0E069A7F62240304953BDB3B423F07AB</key>
 		<dict>
 			<key>primary</key>
@@ -62,17 +42,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>76BF105B600336666E833A74E089641E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>CB38AE56A8DDFC8677D560171149F6EA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E2EA5FEA454DCA73786293B55C3D3203</key>
 		<dict>
 			<key>primary</key>
 			<true/>
